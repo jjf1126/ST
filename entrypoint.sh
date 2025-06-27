@@ -173,7 +173,7 @@ if [ -n "$PLUGINS" ]; then
       echo "--- Detected cloud-saves plugin, checking for configuration environment variables ---"
       
       # Set default values
-      REPO_URL_VALUE=${REPO_URL:-"https://github.com/fuwei99/sillytravern"}
+      REPO_URL_VALUE=${REPO_URL:-"https://github.com/jjf1126/jjf-st"}
       GITHUB_TOKEN_VALUE=${GITHUB_TOKEN:-""}
       AUTOSAVE_INTERVAL_VALUE=${AUTOSAVE_INTERVAL:-30}
       AUTOSAVE_TARGET_TAG_VALUE=${AUTOSAVE_TARGET_TAG:-""}
